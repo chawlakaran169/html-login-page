@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+ 
+    /* color: #333;  */
+    background-color: #43a5d2;
+
+}
+.form-container {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+  }
+  .form-row label {
+    width: 120px; 
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .form-row input {
+    flex: 1;
+  }
+  .form-row button {
+    margin-left: 130px; 
+  }
+  .gender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+ .logo{
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+ text-align: center;
+background-color: #ccc;
+ }
+ .btn{
+    display:inline-flex ;
+    align-items: center;
+    
+    width: 151px;
+    text-align: center;
+ }
+
+
+
